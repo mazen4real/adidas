@@ -162,21 +162,7 @@ nav ul li a:hover{
     text-shadow: 0 0 10px red;
 }
 
-.note{
-    position: absolute;
-    bottom: 2px;
 
-    color: rgba(255,255,255,0.25);
-    letter-spacing: 1px;
-    text-align: center;
-    font-size: 17px;
-    font-style: italic;
-
-    transform: translateY(50px);
-    opacity: 0;
-    animation: up 1s ease forwards;
-    animation-delay: 2.4s;
-}
 
 @keyframes up{
     to{
